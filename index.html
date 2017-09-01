@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yandex Node.JS School Test Task</title>
+    <style>
+    .error {
+        border: 1px solid red;
+    }
+
+    .success {
+        border: 1px solid green;
+    }
+
+    .progress {
+        border: 1px dashed yellow;
+    }
+    </style>
+</head>
+
+<body>
+    <form action="fake/success.json" id="myForm">
+        <input type="text" name="fio" placeholder="ФИО">
+        <input type="email" name="email" placeholder="sample@ya.ru">
+        <input type="text" name="phone" placeholder="+7(999)999-99-99">
+        <button id="submitButton">Отправить</button>
+    </form>
+    <div id="resultContainer"></div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
